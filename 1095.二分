@@ -1,0 +1,48 @@
+
+
+#### [1095. 山脉数组中查找目标值](https://leetcode-cn.com/problems/find-in-mountain-array/)
+
+> 二分查找
+
+```java
+class Solution {
+    public int findInMountainArray(int target, MountainArray mountainArr) {
+        //先找mountainTOP
+    int size = mountainArr.length()-1;
+    int mountainTop = find_mountainTop(mountainArr,0,size);
+    int left = binSearch(mountainArr,0,mountainTop,target,true); 
+    return left != -1? left :binSearch(mountainArr,mountainTop+1,size,target,false);
+    }
+
+    private int find_mountainTop(MountainArray mountainArr,int left,int right){
+        while(left + 1< right){
+            int mid = left + (right - left) / 2;
+            int midVal = mountainArr.get(mid);
+            if(midVal > mountainArr.get(mid-1)){
+                left = mid;
+            }else{
+                right = mid;
+            }
+        }
+        return mountainArr.get(left) > mountainArr.get(right) ? left : right;
+    }
+
+    private int binSearch(MountainArray mountainArr, int left,int right,int target, boolean asc){
+        while(left <= right){
+            int mid = left + (right - left) / 2;
+            int midVal = mountainArr.get(mid);
+            if(midVal == target){
+                return mid;
+            }else if (midVal < target){
+                left = asc ? mid + 1 : left;
+                right = asc ? right : mid - 1;
+            }else{
+                right= asc? mid - 1: right;
+                left = asc? left: mid + 1;
+            }
+        }
+        return -1;
+    }
+}
+```
+
