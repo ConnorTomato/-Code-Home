@@ -11,3 +11,4 @@ class Solution {
             return count == 0 ? s.length() : (s.length() - count + 1);
     }
 }
+  
