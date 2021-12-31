@@ -1,3 +1,3 @@
 # Code
-Daily Code代码安置所
+Daily Code
 待整理
