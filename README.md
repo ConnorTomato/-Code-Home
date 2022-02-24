@@ -1,1 +1,1 @@
-已将代码合并到`LeetCode Repository`中，闲置。    
+已将代码合并到`LeetCode Repository`中，闲置待用。    
