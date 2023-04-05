@@ -1,0 +1,93 @@
+#main #cnt{
+	width:100% !important;
+}
+
+#main .MUFPAc{
+	margin-left:auto !important;
+}
+
+#main #appbar,#slim_appbar{
+	margin: 0 auto !important;
+}
+
+#main #appbar .LHJvCe{
+	width: 100% !important;
+	justify-content: center !important;
+}
+
+#main #tn_1 .LkcePc{
+	width: auto !important;
+}
+
+#main #hdtbMenus{
+	display: grid !important;
+    justify-content: center !important;
+}
+
+div[role="complementary"] {
+  display: none !important;
+}
+
+#sej-container {
+  margin-right: auto;
+  width: fit-content;
+  margin-left: auto;
+}
+
+.MUFPAc {
+  margin-left: 0px
+}
+
+.appbar {
+  margin: 0 auto;
+  /* width: fit-content; */
+}
+
+.minidiv .logo {
+  top: 0px;
+}
+
+#rso .g,
+#rso .g:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.15s ease;
+
+}
+
+#rcnt {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.chat-gpt,
+.GyAeWb .chat-gpt-container.sidebar-free {
+  margin-left: 0px;
+  max-width: 698px
+}
+
+.gpt-promotion-link {
+  display: none;
+}
+
+#chat-gpt-for-google-search-enhance {
+  width: 698px;
+  margin-left: 0px !important;
+}
+
+.search-enhance {
+  width: 698px;
+}
+
+.aaa26a714 .chat-gpt .chat-gpt-card {
+  width: 698px;
+}
+
+.chat-gpt {
+  width: 698px;
+}
+.UUbT9 {
+width: 719px !important;
+}
+.yG4QQe {
+ display: none !important;
+}
